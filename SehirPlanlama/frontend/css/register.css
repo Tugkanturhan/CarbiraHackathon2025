@@ -1,0 +1,52 @@
+/* frontend/css/register.css */
+body {
+    background-color: #e5e5e5;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .container {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .left h1 {
+    font-size: 80px;
+  }
+  
+  .right {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+  }
+  
+  label {
+    margin: 10px 0 5px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  input {
+    height: 40px;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid black;
+  }
+  
+  button {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: black;
+    color: #fef1d7;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 20px;
+  }
+  

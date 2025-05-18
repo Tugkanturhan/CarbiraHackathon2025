@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #edf0f2;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  header h1 {
+    text-align: center;
+    font-size: 48px;
+    margin: 10px;
+  }
+  
+  header span {
+    font-size: 40px;
+    display: block;
+  }
+  
+  main {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 1400px;
+    margin-top: 20px;
+  }
+  
+  .left-panel,
+  .right-panel {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 320px;
+  }
+  
+  .center-panel {
+    width: 500px;
+    margin: 0 30px;
+    text-align: center;
+  }
+  
+  .center-panel h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  
+  .problems-box {
+    height: 420px;
+    background-color: white;
+    border-radius: 30px;
+    border: 1px solid #999;
+  }
+  
+  .box {
+    background-color: white;
+    padding: 15px 20px;
+    border-radius: 25px;
+    border: 1px solid #999;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .box h2 {
+    margin-bottom: 12px;
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  .box label {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+    font-size: 14px;
+    gap: 8px;
+  }
+  
+  .box input {
+    width: 110px;
+    padding: 4px 6px;
+    border-radius: 6px;
+    border: 1px solid #aaa;
+  }
+  
+  .box button {
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 26px;
+    height: 26px;
+    font-size: 14px;
+    cursor: pointer;
+    padding: 0;
+  }
+  /* Güncelle butonu */
+.guncelle-btn {
+    display: inline-block;
+    background: linear-gradient(135deg, #2b6777, #52ab98);
+    color: white;
+    padding: 12px 28px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  .guncelle-btn:hover {
+    background: linear-gradient(135deg, #1f4d5a, #3d8d7a);
+    transform: scale(1.03);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  }

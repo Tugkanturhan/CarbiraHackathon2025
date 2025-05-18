@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #edf0f2;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+header h1 {
+  text-align: center;
+  font-size: 48px;
+  margin: 10px;
+}
+
+header span {
+  font-size: 40px;
+  display: block;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 1400px;
+  margin-top: 20px;
+}
+
+/* Her iki panel de eşit genişlikte */
+.left-panel,
+.right-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 320px; /* Sol ve sağ panel kutuları sabit ve eşit genişlikte */
+}
+
+/* Orta panel sabit genişlikte */
+.center-panel {
+  width: 500px;
+  margin: 0 30px;
+  text-align: center;
+}
+
+.center-panel h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.problems-box {
+  height: 420px;
+  background-color: white;
+  border-radius: 30px;
+  border: 1px solid #999;
+}
+
+/* Kutular (Nüfus, Sağlık, Toplu Taşıma, Konut) */
+.box {
+  background-color: white;
+  padding: 15px 20px;
+  border-radius: 25px;
+  border: 1px solid #999;
+  width: 100%; /* Panel genişliği kadar olsun */
+  box-sizing: border-box;
+}
+
+.box h2 {
+  margin-bottom: 12px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.box label {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+.box input {
+  width: 110px;
+  padding: 4px 6px;
+  border-radius: 6px;
+  border: 1px solid #aaa;
+}

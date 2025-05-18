@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <title>Admin Paneli - Şehir Planlama</title>
+  <link rel="stylesheet" href="../css/admin_ana_sayfa.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>ŞEHİR<br><span>PLANLAMA - ADMIN</span></h1>
+    </header>
+
+    <main>
+      <!-- Sol Panel -->
+      <section class="left-panel">
+        <div class="box">
+          <h2>Nüfus Dağılımı</h2>
+          <label>Genel göç <input type="text" id="genel_goc"></label>
+          <label>Genel doğum <input type="text" id="genel_dogum"></label>
+          <label>Genel ölüm oran <input type="text" id="genel_olum"></label>
+          <label>Toplam doğurganlık <input type="text" id="toplam_dogurganlik"></label>
+          <label>Toplam nüfus <input type="text" id="toplam_nufus"></label>
+        </div>
+
+        <div class="box">
+          <h2>Sağlık Hizmetleri</h2>
+          <label>100k başına düşen yatak sayısı <input type="text" id="yatak_orani"></label>
+          <label>Toplam hastahane sayısı <input type="text" id="hastane_sayisi"></label>
+          <label>Toplam hastahane yatak sayısı <input type="text" id="hastane_yatak"></label>
+          <label>Toplam ambulans <input type="text" id="ambulans"></label>
+          <label>1 yılda müdahale edilen vaka sayısı <input type="text" id="vakalar"></label>
+          <label>100k başına düşen doktor sayısı <input type="text" id="doktor_orani"></label>
+        </div>
+      </section>
+
+      <!-- Orta Panel -->
+      <section class="center-panel">
+        <h2>SORUNLAR</h2>
+        <div class="problems-box">
+          <!-- Sorunlar burada listelenebilir -->
+        </div>
+      </section>
+
+      <!-- Sağ Panel -->
+      <section class="right-panel">
+        <div class="box">
+          <h2>Toplu Taşıma</h2>
+          <label>Toplam Toplu Taşıma sayısı <input type="text" id="toplu_tasima"></label>
+        </div>
+
+        <div class="box">
+          <h2>Konut Oranı</h2>
+          <label>1 Yılda yapılan toplam konut satış sayıları <input type="text" id="konut_satis"></label>
+        </div>
+      </section>
+    </main>
+
+    <div class="button-container" style="text-align:center; margin-top: 20px;">
+      <button id="guncelleBtn" id="guncelleBtn">Verileri Güncelle</button>
+    </div>
+  </div>
+
+  <script src="../js/admin_ana_sayfa.js"></script>
+</body>
+</html>

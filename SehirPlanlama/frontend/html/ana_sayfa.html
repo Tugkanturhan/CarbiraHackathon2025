@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <title>Şehir Planlama</title>
+  <link rel="stylesheet" href="../css/ana_sayfa.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>ŞEHİR<br><span>PLANLAMA</span></h1>
+    </header>
+
+    <main>
+      <!-- Sol Panel -->
+      <section class="left-panel">
+        <div class="box">
+          <h2>Nüfus Dağılımı</h2>
+          <label>Genel göç <input type="text" id="genel_goc" readonly></label>
+          <label>Genel doğum <input type="text" id="genel_dogum" readonly></label>
+          <label>Genel ölüm oran <input type="text" id="genel_olum" readonly></label>
+          <label>Toplam doğurganlık <input type="text" id="toplam_dogurganlik" readonly></label>
+          <label>Toplam nüfus <input type="text" id="toplam_nufus" readonly></label>
+        </div>
+
+        <div class="box">
+          <h2>Sağlık Hizmetleri</h2>
+          <label>100k başına düşen yatak sayısı <input type="text" id="yatak_orani" readonly></label>
+          <label>Toplam hastahane sayısı <input type="text" id="hastane_sayisi" readonly></label>
+          <label>Toplam hastahane yatak sayısı <input type="text" id="hastane_yatak" readonly></label>
+          <label>Toplam ambulans <input type="text" id="ambulans" readonly></label>
+          <label>1 yılda müdahale edilen vaka sayısı <input type="text" id="vakalar" readonly></label>
+          <label>100k başına düşen doktor sayısı <input type="text" id="doktor_orani" readonly></label>
+        </div>
+      </section>
+
+      <!-- Orta Panel -->
+      <section class="center-panel">
+        <h2>SORUNLAR</h2>
+        <div class="problems-box"></div>
+      </section>
+
+      <!-- Sağ Panel -->
+      <section class="right-panel">
+        <div class="box">
+          <h2>Toplu Taşıma</h2>
+          <label>Toplam Toplu Taşıma sayısı <input type="text" id="toplu_tasima" readonly></label>
+        </div>
+
+        <div class="box">
+          <h2>Konut Oranı</h2>
+          <label>1 Yılda yapılan toplam konut satış sayıları <input type="text" id="konut_satis" readonly></label>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="../js/ana_sayfa.js"></script>
+</body>
+</html>
